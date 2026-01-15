@@ -4,7 +4,7 @@ module.exports = function(api) {
     presets: ['babel-preset-expo'],
     plugins: [
       'react-native-reanimated/plugin',
-      'nativewind/babel',
+      // NativeWind v4 uses Metro transformer, not Babel plugin
     ],
   };
 };
